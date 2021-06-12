@@ -1,0 +1,35 @@
+{
+	"compiler": {
+		"version": "0.4.19+commit.c4cbbb05"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"student_test.sol": "sibal"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"student_test.sol": {
+			"keccak256": "0x7cb117c60888ecc29e3fb5365aa862c07997dcd3bdde41f5fd0b0013325521d0",
+			"urls": [
+				"bzzr://acb3795db4aec667febb688cada5e1a8a58f3b0f7b4238ac3aa32a7b91c1ccbd"
+			]
+		}
+	},
+	"version": 1
+}
