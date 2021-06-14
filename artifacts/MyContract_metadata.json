@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "buyToken",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_wallet",
+						"type": "address"
+					},
+					{
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "_buyer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Purchase",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tx.origin.sol": "MyContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tx.origin.sol": {
+			"keccak256": "0x19a9db4b270d47b45e2927c63ce48576c79abdc4f4c63771597ae396615c25f0",
+			"urls": [
+				"bzzr://07a7d845d962ba6689a8e520de7b650e294cb8bbb8fcb047bf5bb2cb3faf8414"
+			]
+		}
+	},
+	"version": 1
+}

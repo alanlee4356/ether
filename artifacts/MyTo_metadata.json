@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"inheritance.sol": "MyTo"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"inheritance.sol": {
+			"keccak256": "0x22dd573a9161807b8dafdd5c7ba835fd8164abba1df6b7b68160b60b44edf96e",
+			"urls": [
+				"bzzr://75a4e333b6c4a8fe8c754152b976d77cab99a90a99baf335001ddd41dc13a4f8"
+			]
+		}
+	},
+	"version": 1
+}
