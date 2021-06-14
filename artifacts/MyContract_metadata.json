@@ -6,22 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"constant": false,
-				"inputs": [],
-				"name": "buyToken",
-				"outputs": [],
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
 				"constant": true,
 				"inputs": [],
-				"name": "token",
+				"name": "value",
 				"outputs": [
 					{
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"payable": false,
@@ -29,41 +20,22 @@
 				"type": "function"
 			},
 			{
+				"constant": false,
 				"inputs": [
 					{
-						"name": "_wallet",
-						"type": "address"
+						"name": "_value1",
+						"type": "uint256"
 					},
 					{
-						"name": "_token",
-						"type": "address"
-					}
-				],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"name": "_buyer",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"name": "_amount",
+						"name": "_value2",
 						"type": "uint256"
 					}
 				],
-				"name": "Purchase",
-				"type": "event"
+				"name": "calculate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -75,7 +47,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tx.origin.sol": "MyContract"
+			"library.sol": "myContract"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -86,10 +58,16 @@
 		"remappings": []
 	},
 	"sources": {
-		"tx.origin.sol": {
-			"keccak256": "0x19a9db4b270d47b45e2927c63ce48576c79abdc4f4c63771597ae396615c25f0",
+		"Math.sol": {
+			"keccak256": "0x624f9ef3d8c33dd1579ae700422a5f3fd3b9c7cccab2373021ba6256021259ed",
 			"urls": [
-				"bzzr://07a7d845d962ba6689a8e520de7b650e294cb8bbb8fcb047bf5bb2cb3faf8414"
+				"bzzr://e816d999663d33f8001f97ca80f28b0c5dd91b27e7594c21f41cd6ccf0458c2f"
+			]
+		},
+		"library.sol": {
+			"keccak256": "0xcce81f02e38f690a3d71854a78a048f56c094096a95866e43b111595f834d6d0",
+			"urls": [
+				"bzzr://58f34993a97b057ef15421ace37878c220c55266ed7e3de528997f6699430c28"
 			]
 		}
 	},
